@@ -1,0 +1,172 @@
+body{ background: rgb(19,20,56);
+    background: linear-gradient(90deg, rgba(19,20,56,1) 0%, rgba(83,44,226,1) 85%, rgba(123,0,255,0.9559174011401436) 100%); 
+   height: 100vh;  
+  }
+    
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    header{
+      height: 100px;
+      width: 100%;
+      background-color: rgb(53, 50, 50);
+    }
+    #logo{
+      /* width: 16%; */
+      /* chnge 30% width */
+      height: 100%;
+      float: right;
+     background-color: rgb(255, 255, 255);
+    }
+    #h1-{
+      float: left;
+      line-height: 100px;
+      text-shadow: 2px 2px rgb(124, 90, 218);
+      padding: 0 15px ;
+      
+    }
+    #pic{
+      height: 100%;
+      border-radius: 20px;
+    }
+    nav{
+      width: 70%;
+      
+      /* text-align: center; */
+
+    }
+    nav a{
+     text-decoration: none;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     display: inline-block;
+     
+
+    }
+    nav li{
+      display: inline-block;
+      line-height: 100px;
+      width: 100px;
+      text-align: center;
+      
+    }
+    nav a:hover{
+      background-color: rgba(120, 114, 128, 0.956);
+      color: black;
+      height: 100%;
+      width: 100%;
+      /* text-decoration: none; */
+    }
+ 
+
+        
+        
+                      
+.container-1{
+ display: flex;
+ align-items: center;
+ color: white;
+ text-align: center;
+
+}
+.box:hover{
+  background-color: rgba(0,0,0,0.1);
+}
+.container-1 div{
+  /* border:1px white solid; */
+  padding:10px;
+  /* justify-content:center; */
+}
+.box-1{
+flex: 3;
+order: 3;
+}
+.box-2{
+flex: 3;
+order: 2;
+}
+.box-3{
+flex: 3;
+order: 1;
+
+}
+/* lol */
+.topnav input[type=text] {
+  border: 1px solid #ccc;  
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+/* paasss */
+.btn-primary {
+  color: #fff;
+  background-color: #8794a2;
+  border-color: #697a8b;
+  
+  margin: 30px 0px 30px 90px;
+  
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+#ptn{
+  color: #fff;
+  background-color : #6b6868;
+  border-color :#2e3197;
+  margin-left: 2px;
+  position: absolute ;
+  right: 330px;
+  top: 98.1px;
+
+}
+.form-check{
+  padding-left: 0;
+
+}
+
+
+
+    
+
+
+
+      

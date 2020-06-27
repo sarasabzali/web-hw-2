@@ -1,0 +1,64 @@
+body{ background: rgb(19,20,56);
+  background: linear-gradient(90deg, rgba(19,20,56,1) 0%, rgba(83,44,226,1) 85%, rgba(123,0,255,0.9559174011401436) 100%); 
+ height: 100vh;  
+}
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(53, 50, 50);
+  }
+  #logo{
+    /* width: 16%; */
+    /* chnge 30% width */
+    height: 100%;
+    float: right;
+   background-color: rgb(255, 255, 255);
+  }
+  #h1-{
+    float: left;
+    line-height: 100px;
+    text-shadow: 2px 2px rgb(124, 90, 218);
+    padding: 0 15px ;
+    
+  }
+  #pic{
+    height: 100%;
+    border-radius: 20px;
+  }
+  nav{
+    width: 70%;
+    
+    /* text-align: center; */
+
+  }
+  nav a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   display: inline-block;
+   
+
+  }
+  nav li{
+    display: inline-block;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+    
+  }
+  nav a:hover{
+    background-color: rgba(120, 114, 128, 0.956);
+    color: black;
+    height: 100%;
+    width: 100%;
+    /* text-decoration: none; */
+  }
+/* lol */
+.checked {
+  color: orange;
+}
